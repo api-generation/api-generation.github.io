@@ -10,4 +10,3 @@ This is our new public static website built directly from Markdown files.
     Our project documentation has completely shifted over to this static portal!
 
 Added another line
-And another
