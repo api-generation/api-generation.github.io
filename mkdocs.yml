@@ -1,1 +1,32 @@
+site_name: "API Generation"
+site_url: "https://api-generation.github.io/" # Update with your URL
+repo_url: "https://github.com"
+
+theme:
+  name: material
+  palette: 
+    # Optional styling: Automatically switches between light and dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.tabs      # Top-level horizontal menu tabs
+    - navigation.sections  # Left sidebar grouping collapse
+    - search.suggest       # Smart search bar autocompletion
+
+# Organise your pages here. The files must exist inside the /docs folder.
+nav:
+  - Home: index.md
+#  - Contact Us: contact.md
 
