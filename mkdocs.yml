@@ -1,10 +1,11 @@
 site_name: "API Generation"
-# site_url: "https://apigeneration.github.io/" # Update with your URL
 site_url: "https://apigeneration.tech/" # Update with your URL
 repo_url: "https://github.com"
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   palette: 
     # Optional styling: Automatically switches between light and dark mode
     - media: "(prefers-color-scheme: light)"
