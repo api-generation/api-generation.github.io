@@ -1,5 +1,5 @@
 site_name: "API Generation"
-site_url: "https://api-generation.github.io/" # Update with your URL
+site_url: "https://apigeneration.github.io/" # Update with your URL
 repo_url: "https://github.com"
 
 theme:
